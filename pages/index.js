@@ -7,7 +7,7 @@ import Section3 from './components/section3';
 import Section4 from './components/section4';
 import Section5 from './components/section5';
 
-const Home = ({ keyboards }) => {
+const Home = () => {
   return (
     <div>
       <Head>

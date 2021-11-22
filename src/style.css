@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: 'Bebas';
+        font-weight: 700;
+        src: url('/fonts/bebas/396129_0_0.woff2') format('woff2'), url('/fonts/bebas/396129_0_0.woff') format('woff')
+    }
+    @font-face {
+        font-family: 'HelveticaNeueLT Pro 65 Md';
+        font-weight: 500;
+        src: url('/fonts/helvetica-neue/HelveticaNeueLTPro-Md.eot') format('embedded-opentype'),
+            url('/fonts/helvetica-neue/HelveticaNeueLTPro-Md.woff2') format('woff2'),
+            url('/fonts/helvetica-neue/HelveticaNeueLTPro-Md.woff') format('woff'),
+            url('/fonts/helvetica-neue/HelveticaNeueLTPro-Md.ttf') format('truetype');
+    }
+}
