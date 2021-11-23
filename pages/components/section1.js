@@ -1,3 +1,6 @@
+import SliderBtn from './slider/sliderbtn';
+import Slider from './slider/slider';
+
 const section1 = () => {
     return (
         <>
@@ -9,6 +12,8 @@ const section1 = () => {
                         <p className="font-hn">Take command of your system, inside and out. Fine-tune the settings for all of your iCUE-compatible devices, from fan speeds to keyboard macros, on a single intuitive interface.</p>
                 </div>
                 <div className="col-span-3 text-white">
+                    <SliderBtn />
+                    <Slider />
                 </div>
             </div>
         </section>
